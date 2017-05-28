@@ -1,0 +1,25 @@
+<div id=ban style="margin-top:7em;margin-bottom:-5em">
+	<img src="images/bansi.png" width="90" onclick="choose('siri')">
+	<img src="images/banva.png" width="80" onclick="choose('va')">
+	<img src="images/banasa.png" width="70" onclick="choose('asa')">
+	<img src="images/bandi.png" width="70" onclick="choose('di')">
+	<img src="images/bangu.png" width="70" onclick="choose('gu')">
+	<img src="images/banch.png" width="70" onclick="choose('cha')">
+</div>
+<div style="margin-top:7em">
+		<img src="images/bansi.png" style="margin-bottom:3em">
+		<div style="margin-bottom:.3em">
+			<img src="images/sirivannavari1.jpg" width="270">
+			<img src="images/sirivannavari2.jpg" width="270">
+			<img src="images/sirivannavari3.jpg" width="270">
+			<img src="images/sirivannavari4.jpg" width="270">
+			<img src="images/sirivannavari5.jpg" width="270">
+		</div>
+		<div>	
+			<img src="images/sirivannavari6.jpg" width="270">
+			<img src="images/sirivannavari7.jpg" width="270">	
+			<img src="images/sirivannavari8.jpg" width="270">
+			<img src="images/sirivannavari9.jpg" width="270">
+			<img src="images/sirivannavari10.jpg" width="270">
+		</div>
+</div>

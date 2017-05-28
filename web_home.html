@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+	FWTSlide by Adonis Ronquillo for Free Web Templates
+	www.freewebtemplates.com / www.doni.us
+	Images by Unprofound http://www.unprofound.com/
+	Released under the Creative Commons Attribution 3.0 License.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<title>Verzazhy Store</title>
+		<link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="fwt.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slidertron-0.3.1.js"></script>
+		<script type="text/javascript" src="js/jquery.poptrox-0.1.js"></script>
+
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700,300,400">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/elegant-font/code/style.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="web_home.html">Versashy</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="top-navbar-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li style="margin-top: 1.3em;color: white">The biggest luxury store</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="page">
+			<div id="rec"><img src="images/recom.png"></div>
+			<div id="si"><img src="images/si.png" onclick="choose('siri')"></div>
+			<div id="ch"><img src="images/chanel.png" onclick="choose('cha')"></div>
+			<center>
+			<div id="banner">
+					<div id="slidertron">
+						<div class="viewer">
+							<div class="reel">
+								<div class="slide">
+									<img src="images/gu.png" onclick="choose('gu')">
+								</div>
+								<div class="slide">
+									<img src="images/va.png" onclick="choose('va')">
+								</div>
+								<div class="slide">
+									<img src="images/asa.png" onclick="choose('asa')">
+								</div>
+								<div class="slide">
+									<img src="images/di.png" onclick="choose('di')">
+								</div>
+							</div>
+						</div>
+						<div class="indicator">
+							<ul>
+								<li class="active">1</li>
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+
+							</ul>
+							<br class="clear" />
+						</div>
+					</div>
+				</div>
+			</center>
+			</div>
+					
+					<script type="text/javascript">
+						function choose(str) {
+  							var xhttp = new XMLHttpRequest();
+  							xhttp.onreadystatechange = function() {
+    						if (this.readyState == 4 && this.status == 200) {
+      							document.getElementById("page").innerHTML =this.responseText;
+    						}};
+  							xhttp.open("GET", "textAndxml/"+str+".txt", true);
+  							xhttp.send();
+						}
+
+						$('#slidertron').slidertron({
+							viewerSelector:			'.viewer',
+							reelSelector:			'.viewer .reel',
+							slidesSelector:			'.viewer .reel .slide',
+							indicatorSelector:		'.indicator ul li',
+							//navPreviousSelector:	'.previous',
+							//navNextSelector:		'.next',
+							//navFirstSelector:		'.first',
+							//navLastSelector:		'.last',
+							//navStopAdvanceSelector:	'.stop',
+							//navPlayAdvanceSelector:	'.play',
+							advanceDelay:			3000,
+							speed:					'slow',
+							viewerOffset:			200,
+							activeSlideClass:		'slide-active',
+							slideLinkSelector:		'.link',
+							captionLines:			2,
+							captionLineSelector:	'.captionLine',
+							slideCaptionSelector:	'.caption'
+						});
+						
+					</script>			
+			
+					<br class="clear" />
+			
+			</div>
+			</center>
+		</div>			
+		<div id="copyright">
+			<p>Verzazhy Bangkok Luxury Store</p>
+		</div>
+	</body>
+</html>

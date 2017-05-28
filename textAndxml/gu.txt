@@ -1,0 +1,25 @@
+<div id=ban style="margin-top:7em;margin-bottom:-5em">
+	<img src="images/bansi.png" width="90" onclick="choose('siri')">
+	<img src="images/banva.png" width="80" onclick="choose('va')">
+	<img src="images/banasa.png" width="70" onclick="choose('asa')">
+	<img src="images/bandi.png" width="70" onclick="choose('di')">
+	<img src="images/bangu.png" width="70" onclick="choose('gu')">
+	<img src="images/banch.png" width="70" onclick="choose('cha')">
+</div>
+<div style="margin-top:7em">
+		<img src="images/bangu.png" style="margin-bottom:3em">
+		<div style="margin-bottom:.3em">
+			<img src="images/GUCCI1.jpg" width="270">
+			<img src="images/GUCCI2.jpg" width="270">
+			<img src="images/GUCCI3.jpg" width="270">
+			<img src="images/GUCCI4.jpg" width="270">
+			<img src="images/GUCCI5.jpg" width="270">
+		</div>
+		<div>
+			<img src="images/GUCCI6.jpg" width="270">
+			<img src="images/GUCCI7.jpg" width="270">
+			<img src="images/GUCCI8.jpg" width="270">
+			<img src="images/GUCCI9.jpg" width="270">
+			<img src="images/GUCCI10.jpg" width="270">
+		</div>
+</div>

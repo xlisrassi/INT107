@@ -1,0 +1,35 @@
+<div id="rec"><img src="images/recom.png"></div>
+			<div id="si"><img src="images/si.png" onclick="choose('siri')"></div>
+			<div id="ch"><img src="images/chanel.png" onclick="choose('cha')"></div>
+			<center>
+			<div id="banner">
+					<div id="slidertron">
+						<div class="viewer">
+							<div class="reel">
+								<div class="slide">
+									<img src="images/gu.png" onclick="choose('gu')">
+								</div>
+								<div class="slide">
+									<img src="images/va.png" onclick="choose('va')">
+								</div>
+								<div class="slide">
+									<img src="images/asa.png" onclick="choose('asa')">
+								</div>
+								<div class="slide">
+									<img src="images/di.png" onclick="choose('di')">
+								</div>
+							</div>
+						</div>
+						<div class="indicator">
+							<ul>
+								<li class="active">1</li>
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+
+							</ul>
+							<br class="clear" />
+						</div>
+					</div>
+				</div>
+			</center>
